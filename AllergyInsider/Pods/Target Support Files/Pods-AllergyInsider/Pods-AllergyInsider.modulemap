@@ -1,0 +1,6 @@
+framework module Pods_AllergyInsider {
+  umbrella header "Pods-AllergyInsider-umbrella.h"
+
+  export *
+  module * { export * }
+}
