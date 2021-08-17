@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E1465DA878A81E34D196F2D /* Pods_AllergyInsider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F1AA8B4062D269339ED168 /* Pods_AllergyInsider.framework */; };
+		678D576D26CA0AAE009CD978 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D576C26CA0AAE009CD978 /* SignInViewController.swift */; };
 		679BDA0226C9076500BB7F84 /* UserQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BDA0126C9076500BB7F84 /* UserQueryModel.swift */; };
 		679BDA0426C908CF00BB7F84 /* UserInsertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BDA0326C908CF00BB7F84 /* UserInsertModel.swift */; };
 		679BDA0626C9134400BB7F84 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BDA0526C9134400BB7F84 /* MyPageViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		28554C7D85F5DAFF38730896 /* Pods-AllergyInsider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllergyInsider.release.xcconfig"; path = "Target Support Files/Pods-AllergyInsider/Pods-AllergyInsider.release.xcconfig"; sourceTree = "<group>"; };
 		3A2B9077FBDA7574F1F28701 /* Pods-AllergyInsider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllergyInsider.debug.xcconfig"; path = "Target Support Files/Pods-AllergyInsider/Pods-AllergyInsider.debug.xcconfig"; sourceTree = "<group>"; };
+		678D576C26CA0AAE009CD978 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		679BDA0126C9076500BB7F84 /* UserQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserQueryModel.swift; sourceTree = "<group>"; };
 		679BDA0326C908CF00BB7F84 /* UserInsertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInsertModel.swift; sourceTree = "<group>"; };
 		679BDA0526C9134400BB7F84 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				679BDA0126C9076500BB7F84 /* UserQueryModel.swift */,
 				679BDA0326C908CF00BB7F84 /* UserInsertModel.swift */,
 				679BDA0526C9134400BB7F84 /* MyPageViewController.swift */,
+				678D576C26CA0AAE009CD978 /* SignInViewController.swift */,
 			);
 			path = AllergyInsider;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678D576D26CA0AAE009CD978 /* SignInViewController.swift in Sources */,
 				67D30E8B26C50F16007748C4 /* ViewController.swift in Sources */,
 				679BDA0626C9134400BB7F84 /* MyPageViewController.swift in Sources */,
 				679BDA0226C9076500BB7F84 /* UserQueryModel.swift in Sources */,

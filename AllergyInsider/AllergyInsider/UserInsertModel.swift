@@ -9,7 +9,7 @@ import Foundation
 
 class UserInsertModel{ // : NSObject
     
-    var urlPath = "http://192.168.0.11:8080/schrodinger/userInsert_ios.jsp"
+    var urlPath = "http://192.168.2.101:8080/allergyinsider/userInsert_ios.jsp"
     
     // MARK: insert 실행
     func insertItems(id: String) -> Bool{

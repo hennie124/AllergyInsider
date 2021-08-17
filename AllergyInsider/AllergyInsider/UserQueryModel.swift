@@ -14,7 +14,7 @@ class UserQueryModel{ // : NSObject
     
 //    var delegate: QueryModelProtocol!
     
-    var urlPath = "http://192.168.0.11:8080/allergyinsider/user_query_ios.jsp"
+    var urlPath = "http://192.168.2.101:8080/allergyinsider/user_query_ios.jsp"
     
     // MARK: query 실행
     func downloadItems(id: String) {

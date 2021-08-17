@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <connections>
-                                    <action selector="btnGoogleGIDSignIn:" destination="BYZ-38-t0r" eventType="valueChanged" id="50i-Ec-jqP"/>
+                                    <action selector="btnGoogleSignIn:" destination="BYZ-38-t0r" eventType="valueChanged" id="CVu-xr-5Fp"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="teZ-Wr-ZB7">
             <objects>
-                <viewController id="9Zf-rJ-l2e" sceneMemberID="viewController">
+                <viewController id="9Zf-rJ-l2e" customClass="SignInViewController" customModule="AllergyInsider" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pMK-tL-NeB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
